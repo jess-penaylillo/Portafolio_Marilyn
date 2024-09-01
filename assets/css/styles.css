@@ -1,0 +1,69 @@
+body {
+    background-image: url('/assets/img/s'), radial-gradient(circle, rgba(255, 255, 255, 0.5) 1px, transparent 5px); /* Imagen de fondo y estrellas */
+    background-size: cover, 100px 100px; 
+    background-repeat: no-repeat, repeat; 
+    background-attachment: fixed;
+    background-color: #860911; 
+}
+
+.navbar, .card, .footer {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+.footer{
+    background-color: #CFE2FF;
+    
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #080202; 
+    
+}
+
+.nav-link{
+    color: #fffdfd; 
+}
+
+.nav-link:hover{
+    color: #791111; 
+    
+}
+
+.nav-link:hover {
+    color: #ff4081;
+    transition: color 0.3s ease;
+}
+
+
+#navbarSupportedContent .nav-link:hover {
+    color: #ff4081;
+}
+
+#navbarSupportedContent .nav-link[href="#inicio"]:hover {
+    color: #860911; 
+}
+
+#navbarSupportedContent .nav-link[href="#habilidades"]:hover {
+    color: #860911; 
+}
+
+#navbarSupportedContent .nav-link[href="#proyectos"]:hover {
+    color: #860911; 
+}
+
+#navbarSupportedContent .nav-link[href="#contacto"]:hover {
+    color: #860911; 
+}
+.cardProyectos{
+    width: 150px;
+    height: 150px;
+}
+
+
+.card-img-top {
+    width: 100%; 
+    height: 600px; 
+    
+}
